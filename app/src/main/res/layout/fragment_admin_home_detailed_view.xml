@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Fragments.Admin.AdminHomeDetailedViewFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    >
+
+    <TextView
+        android:id="@+id/fullNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Full Name"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/regNumberTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Number"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/contactNoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact No"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/summaryTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Summary"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/keySkillsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Key Skills"
+        android:textSize="16sp" />
+
+    <!-- Add other TextViews for other fields -->
+
+</LinearLayout>
+
+
